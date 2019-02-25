@@ -1,0 +1,65 @@
+Pseudocode challenge
+
+1. Newton Second Law
+
+STORE "masa benda" with 600
+STORE "percepatan benda" with 2
+STORE "resultan gaya" with 0
+
+CALCULATE "masa benda" times "percepatan benda"
+SET "resultan gaya" with calculation result
+
+DISPLAY "resultan gaya"
+
+
+2. Tahun Kabisat
+
+STORE "tahun" 
+
+IF "tahun" mod 4 equals to 0 and mod 100 un-equal to 0
+	DISPLAY "kabisat"
+IF ELSE "tahun" mod 4 equals to 0 and mod 100 equals to 0 and mod 400 equals to 0
+	DISPLAY "kabisat"
+ELSE
+	DISPLAY "not kabisat"
+	
+
+3. Laundry Day
+
+STORE "mesin cuci" with 0
+
+WHILE "mesin cuci" less than 20
+	ADD "mesin cuci" by 1
+
+DISPLAY "ready to laundry"
+
+
+4. Periksa Kuku
+
+STORE "siswa" with 1
+STORE "kukupanjang" with boolean
+
+while "siswa" less or equal to 40
+	IF "kukupanjang" equal to true
+		DO "dihukum"
+	ELSE 
+		DO "dipuji"
+	ADD "siswa" by 1
+
+DISPLAY "END"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

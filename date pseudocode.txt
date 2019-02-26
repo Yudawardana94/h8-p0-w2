@@ -1,0 +1,50 @@
+make program that produce date format
+
+use variable day, motnth, and year
+
+//variable
+make variable day = 25
+make variable month = 3
+make variable year = 2015
+
+//code
+SWITCH (variable month) {
+    case (1):
+        DO ('January')
+        break;
+    case (2):
+        DO ('February');
+        break;
+    case (3):
+        DO ('March');
+        break;
+    case (4):
+        DO ('April')
+        break;
+    case (5):
+        DO ('May')
+        break
+    case (6):
+        DO ('June');
+        break;
+    case (7):
+        DO ('July');
+        break;
+    case (8):
+        DO ('Agustus');
+        break;
+    case (9):
+        DO ('September')
+    case (10):
+        DO ('Oktober')
+    case (11):
+        DO ('November')
+    case (12):
+        DO ('December')
+}
+
+// how to code
+use SWITCH (fill the variable month){
+    from case 1 to 12 make it to DO (variable day) + 'Januari' to 'Dcember' + (variable year) 
+    so for the case make 12 case that filled with the name of month
+}

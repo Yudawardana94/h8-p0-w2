@@ -1,0 +1,28 @@
+proxytia game
+
+need 2 variable  : name and role
+
+//variable
+
+make variable : name = use any name
+make variabe : role = role consist of three type [Warior, Priest, wizard]
+
+// input
+
+store variable name : 'yuda'
+store variable role : 'ksatria'
+
+IF  (name 'yuda' and role 'empety'){
+    DO 'Hi yuda, chooseyour role to play a game'
+} ELSE IF(name 'yuda' and role 'Warior'){
+    DO 'welcome to proxytia world, yuda'
+    'hallo warior yuda, you can attack with your weapon'
+} ElSE IF (name 'rinda' and role 'Priest'){
+    DO 'welcome to proxytia world, rinda'
+    'hallo priest rinda, you will helpyour wounded friends'
+} ELSE IF (name 'wardana' and role 'wizard' ){
+    DO 'welcome to proxytia world, yuda'
+    'hallo warior yuda, make a miracle that help your victory'
+} ELSE {
+    DO 'Name must be filled'
+} 

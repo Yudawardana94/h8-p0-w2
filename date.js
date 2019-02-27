@@ -3,7 +3,12 @@
   var month = 3
   var year = 2015
 
-//code
+//code      
+if(day<=31 && day>=1){
+} else{ 
+    console.log('not a right day')
+}
+
 switch (month) {
     case 1:
         console.log(day +' January '+ year)
@@ -41,5 +46,11 @@ switch (month) {
     case 12:
         console.log(day +' December' +year);
         break;
+    default:
+        console.log('not a right month')
 }
 
+if(year>=1900 && year<= 2200) {
+} else {
+    console.log('not a right year')
+}

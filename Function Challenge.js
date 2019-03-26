@@ -10,8 +10,8 @@ function katakan(){
     return '"Hello World!"'
 }
 
-var shoutOut= katakan();
-console.log(shoutOut)
+console.log (katakan());
+
 console.log("---------------------------------")
 
 // Tugas 2
@@ -28,12 +28,13 @@ console.log("---------------------------------")
 //tugas 3 
 
 function processSentence( name , age , address , hobby ){
-    return 'Nama saya '+name,', umur saya '+age+' tahun',', alamat saya di '+address,', dan saya punya hobby yaitu '+hobby+'!'
+    return 'Nama saya '+name+', umur saya '+age+' tahun'+', alamat saya di '+address+', dan saya punya hobby yaitu '+hobby+'!'
 }
 
 var name = 'Agus'
 var age = '30'
 var address = 'jln. Malioboro, Yogyakarta'
 var hobby = 'Gaming'
-var fullSentence = processSentence(name, age , address , hobby)
-console.log(fullSentence)
+// var fullSentence = processSentence(name, age , address , hobby)
+
+console.log(processSentence( name , age , address , hobby ))

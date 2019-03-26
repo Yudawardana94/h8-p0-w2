@@ -22,11 +22,11 @@ while (init >= 0) {
 
 
 console.log('LOOPING PERTAMA')
-for(plus = 1 ; plus <= 20 ; plus++)
+for(var plus = 1 ; plus <= 20 ; plus++)
     console.log(plus + ' - i love coding')
 
 console.log('LOOPING KEDUA')
-for(min = 20 ; min >= 0 ; min--)
+for(var min = 20 ; min >= 0 ; min--)
     console.log(min + " - i will become fullstack developer")
 
 
@@ -34,7 +34,7 @@ for(min = 20 ; min >= 0 ; min--)
 
 
     //first repetition
-for(ch3 = 1 ; ch3 <= 100 ; ch3 ++)
+for(var ch3 = 1 ; ch3 <= 100 ; ch3 ++)
    if (ch3 % 2 === 0){
      console.log (ch3 + ' GENAP')
 } else {
@@ -42,7 +42,7 @@ for(ch3 = 1 ; ch3 <= 100 ; ch3 ++)
 }
 
     //second repetition with increase of 2
-for(ch3 = 1 ; ch3 <= 100 ; ch3 +=2)
+for(var ch3 = 1 ; ch3 <= 100 ; ch3 +=2)
    if (ch3 % 3 === 0){
      console.log (ch3 + ' kelipatan 3')
 } else {
@@ -50,7 +50,7 @@ for(ch3 = 1 ; ch3 <= 100 ; ch3 +=2)
 }
 
     //third repetition with increase of 5
-for(ch3 = 1 ; ch3 <= 100 ; ch3 +=5)
+for(var ch3 = 1 ; ch3 <= 100 ; ch3 +=5)
     if (ch3 % 6 === 0){
      console.log (ch3 + ' kelipatan 6')
 } else {
@@ -58,7 +58,7 @@ for(ch3 = 1 ; ch3 <= 100 ; ch3 +=5)
 }
  
     //fourth repetition wit incrase of 9
-for(ch3 = 1 ; ch3 <= 100 ; ch3 +=9)
+for(var ch3 = 1 ; ch3 <= 100 ; ch3 +=9)
     if (ch3 % 10 === 0){
         console.log (ch3 + ' kelipatan 10')
  } else {

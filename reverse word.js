@@ -9,7 +9,7 @@
 
 function balikKata(kata){
     var baru ='';
-    for (i=kata.length;i>=0;i--){
+    for (i=kata.length-1;i>=0;i--){
         baru += kata[i]
     }
     return baru
